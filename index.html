@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de compra</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de ordem de compra</h1>
+    </header>
+    <hr>
+    <br>
+
+    <main>
+        <section>
+            <form action="#" method="GET">
+                <div class="clt_from">
+                    <label for="collect from"> Coletado em <br>
+                        <input class="adr" type="text" name="Address" placeholder="Street Address"> <br>
+                        <input class="city" type="text" name="City" placeholder="City">
+                        <input class="country" type="text" name="Country" placeholder="Country">
+                        <br>
+                    </label>
+                </div>
+
+                <div class="dates">
+                    <label for="date ordered">
+                        Date ordered <br>
+                        <input class="dt-ord" type="date" name="dt-ord">
+                    </label>
+
+                    <label for="date received">
+                        Date received <br>
+                        <input class="dt-rec" type="date" name="dt-rec">
+                    </label>
+                </div>
+
+                <div class="qt-pc">
+                    <label for="Quantity">
+                        Qty <br>
+                        <input class="qt" type="number" name="qt">
+                    </label>
+
+                    <label for="price">
+                        Price <br>
+                        <input class="price" type="text" name="price">
+                    </label> <br>
+                </div>
+
+                <label class="desc" for="descption">
+                    Description <br>
+                    <textarea class="t-ar" name="description"></textarea>
+                </label> <br>
+
+                <input class="sub" type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
